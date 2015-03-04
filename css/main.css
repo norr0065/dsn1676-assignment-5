@@ -7,7 +7,8 @@
 
 html {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
     
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -53,12 +54,14 @@ form {
   float: right;
   text-align: center;
   margin: 0;
+  padding: none;
   width: 25%;
   border: none;
   border-radius: 1px;
   background-color: #808080;
   text-align: center;
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .button:hover {
