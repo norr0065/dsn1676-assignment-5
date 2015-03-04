@@ -98,4 +98,11 @@ html {
   padding: 0;
   text-decoration: none;
   list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-style:oblique;
+  font-weight: 700;
+}
+
+.complete {
+    text-decoration: line-through; color: red;
 }
