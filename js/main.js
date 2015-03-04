@@ -8,3 +8,7 @@ $form.on('submit', function (e) {
     var $li = $('<li>').html($name.val());
     var $nameDl = $('<button class="delete">X</button>');
 
+$nameDl.on('click', function () {
+        $li.remove('li');
+    });
+    
