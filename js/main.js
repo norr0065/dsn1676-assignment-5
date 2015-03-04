@@ -12,3 +12,11 @@ $nameDl.on('click', function () {
         $li.remove('li');
     });
     
+$list.on('click', 'li', function () {
+        $(this).addClass('complete');
+    });
+
+    $li.append($nameDl);
+    $list.prepend($li);
+    $name.val('');    
+});
